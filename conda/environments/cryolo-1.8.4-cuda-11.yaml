@@ -1,0 +1,16 @@
+name: cryolo-1.8.4-cuda-11
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3
+  - pyqt=5
+  - numpy=1.18.5
+  - libtiff
+  - wxPython=4.2.0
+  - adwaita-icon-theme
+  - pip
+  - pip:
+    - nvidia-pyindex
+    - cryolo[c11]
